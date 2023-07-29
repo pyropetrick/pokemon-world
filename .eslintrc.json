@@ -1,0 +1,32 @@
+{
+  "extends": "next/core-web-vitals",
+  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "import/first": "warn",
+    "import/newline-after-import": "warn",
+    "import/no-duplicates": "warn",
+    "react/jsx-props-no-spreading": "off",
+    "quotes": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/function-component-definition": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "no-param-reassign": "off",
+    "react/destructuring-assignment": "warn",
+    "react/require-default-props": "off",
+    "object-shorthand": "warn",
+    "no-plusplus": "off",
+    "react/no-array-index-key": "off",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
+  }
+}
