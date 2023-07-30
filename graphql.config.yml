@@ -1,0 +1,10 @@
+schema:
+  - "https://beta.pokeapi.co/graphql/v1beta"
+documents:
+  - "./src/graphql/**/*.ts"
+generates:
+  ./src/graphql/generated/graphql.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-apollo

@@ -1,6 +1,6 @@
 import styles from "./index.module.scss";
 
-export default function Home() {
+const Home = () =>  {
   return (
     <main className={styles.main}>
       <div className="container">
@@ -22,8 +22,8 @@ export default function Home() {
             <p className={styles.card}>
               Our AI rivals aren&apos;t just any opponents; they&apos;re designed to adapt, learn
               and challenge you, pushing your analytical and strategic skills to the limit. With
-              <span className="cursive"> every duel</span>, you gather more knowledge, improve your decision-making skills, and
-              elevate your gaming tactics.
+              <span className="cursive"> every duel</span>, you gather more knowledge, improve your
+              decision-making skills, and elevate your gaming tactics.
             </p>
             <p className={styles.card}>
               This platform is not just about winning battles; it&apos;s about learning, improving,
@@ -32,9 +32,10 @@ export default function Home() {
               one-of-a-kind educational gaming journey.
             </p>
             <p className={styles.card}>
-              Dive into the <span className="highlight">Pokémon World</span> today and prepare for an
-              unforgettable voyage of <span className="cursive">knowledge, strategy, and triumphant victories</span>. Rise to the
-              challenge and hone your skills like a true Pokémon Master!
+              Dive into the <span className="highlight">Pokémon World</span> today and prepare for
+              an unforgettable voyage of{" "}
+              <span className="cursive">knowledge, strategy, and triumphant victories</span>. Rise
+              to the challenge and hone your skills like a true Pokémon Master!
             </p>
           </div>
         </section>
@@ -42,3 +43,5 @@ export default function Home() {
     </main>
   );
 }
+
+export default Home;
