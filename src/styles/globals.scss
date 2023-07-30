@@ -1,0 +1,24 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: min-content 3fr min-content;
+}
+
+.container {
+  width: calc(100% - 15px);
+  max-width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.highlight {
+  font-family: var(--font-zilla);
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--accent);
+}
+
+.cursive {
+  font-style: italic;
+  font-weight: 500;
+}
