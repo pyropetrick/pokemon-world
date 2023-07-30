@@ -1,0 +1,25 @@
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: var(--footer);
+  color: var(--white);
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.title {
+  font-family: var(--font-zilla);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.navList {
+  display: flex;
+  gap: 10px;
+}
+

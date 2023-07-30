@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { PropsWithChildren } from "react";
 import "@/styles/reset.css";
 import "@/styles/root.scss";
+import "@/styles/globals.scss";
 import classNames from "classnames";
 import { ROBOTO, RUBIK, ZILLA_SLAB } from "@/config";
 

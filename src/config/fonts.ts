@@ -12,6 +12,6 @@ export const ROBOTO = Roboto({
 });
 export const ZILLA_SLAB = Zilla_Slab({
   variable: "--font-zilla",
-  weight: ["400", "500"],
+  weight: ["400", "500", "700"],
   subsets: ["latin"],
 });
